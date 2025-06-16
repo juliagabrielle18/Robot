@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.0 on win32)" generated="2025-06-02T21:05:35.811183" rpa="false" schemaversion="5">
+<suite id="s1" name="Amazon" source="c:\Users\julia.leal\Documents\aula robot\amazon.robot">
+<test id="s1-t1" name="Teste de cadastro" line="6">
+<kw name="abrir a pagina da amazon">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-02T21:05:36.086478" level="INFO">Opening browser 'firefox' to base url 'https://www.amazon.com.br/?&amp;tag=hydrbrabk-20&amp;ref=pd_sl_7rwd1q78df_e&amp;adgrpid=155790195778&amp;hvpone=&amp;hvptwo=&amp;hvadid=677606588104&amp;hvpos=&amp;hvnetw=g&amp;hvrand=945150447164227623&amp;hvqmt=e&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9198672&amp;hvtargid=kwd-10573980&amp;hydadcr=26346_11691057&amp;gad_source=1'.</msg>
+<arg>https://www.amazon.com.br/?&amp;tag=hydrbrabk-20&amp;ref=pd_sl_7rwd1q78df_e&amp;adgrpid=155790195778&amp;hvpone=&amp;hvptwo=&amp;hvadid=677606588104&amp;hvpos=&amp;hvnetw=g&amp;hvrand=945150447164227623&amp;hvqmt=e&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9198672&amp;hvtargid=kwd-10573980&amp;hydadcr=26346_11691057&amp;gad_source=1</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-02T21:05:36.086254" elapsed="4.180541"/>
+</kw>
+<status status="PASS" start="2025-06-02T21:05:36.085715" elapsed="4.181304"/>
+</kw>
+<kw name="inserir um produto para pesquisar">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-02T21:05:40.268697" level="INFO">Typing text 'Alexa' into text field 'id:twotabsearchtextbox'.</msg>
+<arg>id:twotabsearchtextbox</arg>
+<arg>Alexa</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-02T21:05:40.267985" elapsed="0.103477"/>
+</kw>
+<status status="PASS" start="2025-06-02T21:05:40.267516" elapsed="0.104132"/>
+</kw>
+<kw name="clicar em pesquisar">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-02T21:05:40.372574" level="INFO">Clicking element 'id:nav-search-submit-button'.</msg>
+<arg>id:nav-search-submit-button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-02T21:05:40.372325" elapsed="0.967180"/>
+</kw>
+<status status="PASS" start="2025-06-02T21:05:40.371996" elapsed="0.967675"/>
+</kw>
+<status status="PASS" start="2025-06-02T21:05:36.085035" elapsed="5.254964"/>
+</test>
+<status status="PASS" start="2025-06-02T21:05:35.816201" elapsed="5.524655"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Amazon" id="s1" pass="1" fail="0" skip="0">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

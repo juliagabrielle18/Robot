@@ -1,0 +1,17 @@
+1748909058114	geckodriver	INFO	Listening on 127.0.0.1:58878
+1748909058615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58879" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\temp\\rust_mozprofilekF99Tc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1748909058965	Marionette	INFO	Marionette enabled
+1748909059107	Marionette	INFO	Listening on port 58889
+WebDriver BiDi listening on ws://127.0.0.1:58879
+Read port: 58889
+1748909059223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com.br/s?k=Alexa+Echo&lo=grid&crid=25YCA3IW42QK3&nav_sdd=aps&sprefix=alexa&ref=nb_sb_ss_w_hit-sc3_alexa_k0_1_5_0+chrome, line 5952: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Alexa&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 4685: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Alexa&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 4633: Script terminated by timeout at:
+l@https://www.amazon.com.br/s?k=Alexa&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss:4633:262
+
+1748909064272	Marionette	INFO	Stopped listening on port 58889
+Dynamically enable window occlusion 1

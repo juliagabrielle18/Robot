@@ -1,0 +1,22 @@
+1748909096380	geckodriver	INFO	Listening on 127.0.0.1:59152
+1748909096904	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59153" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\temp\\rust_mozprofileGLd0tg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1748909097272	Marionette	INFO	Marionette enabled
+1748909097429	Marionette	INFO	Listening on port 59162
+WebDriver BiDi listening on ws://127.0.0.1:59153
+Read port: 59162
+1748909097578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com.br/?&tag=hydrbrabk-20&ref=pd_sl_7rwd1q78df_e&adgrpid=155790195778&hvpone=&hvptwo=&hvadid=677606588104&hvpos=&hvnetw=g&hvrand=945150447164227623&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9198672&hvtargid=kwd-10573980&hydadcr=26346_11691057&gad_source=1%20firefox, line 3831: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/A1WQBF1p2UL.js, line 27: Script terminated by timeout at:
+clearEvents@https://m.media-amazon.com/images/I/A1WQBF1p2UL.js:27:252887
+sendBeaconEvents@https://m.media-amazon.com/images/I/A1WQBF1p2UL.js:27:252708
+prepareSendEvents/<@https://m.media-amazon.com/images/I/A1WQBF1p2UL.js:27:250475
+
+JavaScript warning: https://www.amazon.com.br/s?k=Alexa&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 4716: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com.br/s?k=Alexa&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss, line 4664: Script terminated by timeout at:
+l@https://www.amazon.com.br/s?k=Alexa&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss:4664:262
+
+1748909107258	Marionette	INFO	Stopped listening on port 59162
+Dynamically enable window occlusion 1
